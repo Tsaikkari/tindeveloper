@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tindeveloper</title>
+    <title>tindeveloper</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,24 @@
   </head>
 
   <body>
+    <div class="container-fluid" id="nav_and_header">
+      <nav class="navbar">
+        <ul>
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About", simple_pages_about_path %></li>
+          <li><%= link_to "Contact", simple_pages_contact_path %></li>
+          <li><%= link_to "Pricing", simple_pages_pricing_path %></li>
+          <li><%= link_to "Download", simple_pages_download_path %></li>
+        </ul>
+      </nav> 
+    </div> 
+
     <%= yield %>
+
+    <footer>
+      &copy; 2020 tindeveloper
+    </footer>
   </body>
 </html>
+
+

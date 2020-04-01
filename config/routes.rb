@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root 'simple_pages#index'
+  get 'simple_pages/index'
+  get 'simple_pages/about'
+  get 'simple_pages/contact'
+  get 'simple_pages/pricing'
+  get 'simple_pages/download'
 end
