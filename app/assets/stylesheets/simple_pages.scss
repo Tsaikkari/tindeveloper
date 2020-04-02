@@ -31,8 +31,6 @@ p {
 
 /*title section*/
 #title {
-    background-color: #4e2161;
-    color: #fff; 
     padding: 1% 14% 10%;
     text-align: left;
 }
@@ -46,7 +44,16 @@ p {
 
 .container-fluid {
     padding: 2.5% 13% 4%;
+}
+
+/*sections*/
+.colored-section {
     background-color: #4e2161;
+    color: #fff; 
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 /*navigation bar*/
@@ -64,7 +71,7 @@ p {
     font-family: 'Monserrat-Light';
 }
 
-a, .nav-link {
+a.nav-link {
     text-decoration: none;
 }
 
@@ -80,8 +87,7 @@ a, .nav-link {
 
 /*testimonials section*/
 #testimonials {
-    color: #fff;
-    background-color:#4e2161;
+    background-color: #502161;
 }
 
 .testimonial-text {
@@ -114,8 +120,6 @@ a, .nav-link {
 }
 
 #cta {
-    background-color: #4e2161;
-    color: #fff;
     padding: 0 15% 2%;
 }
 
@@ -127,7 +131,6 @@ a, .nav-link {
 /*features secture*/
 #features {
     padding: 3% 15%;
-    background-color: #fff;
     position: relative;
 }
 
@@ -150,6 +153,7 @@ a, .nav-link {
 
 #footer {
     padding: 3% 14%;
+    position: relative;
 }
 
 .social-icon {
