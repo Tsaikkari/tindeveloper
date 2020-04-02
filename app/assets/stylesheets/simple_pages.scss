@@ -29,19 +29,6 @@ p {
     line-height: 1.5;
 }
 
-/*title section*/
-#title {
-    padding: 1% 14% 10%;
-    text-align: left;
-}
-
-.title-image {
-    width: 66%;
-    transform: rotate(25deg);
-    position: absolute;
-    right: 20%;
-}
-
 .container-fluid {
     padding: 2.5% 13% 4%;
 }
@@ -83,6 +70,19 @@ a.nav-link {
         color: #bebebe;
         text-decoration: none;
     }
+}
+
+/*title section*/
+#title {
+    padding: 1% 14% 10%;
+    text-align: left;
+}
+
+.title-image {
+    width: 66%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
 
 /*testimonials section*/
