@@ -8,8 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat-Bold', sans-serif;
 }
 
 p {
@@ -18,13 +17,14 @@ p {
 
 /*headings*/
 .big-heading {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 1.5;
 }
 
 .section-heading {
     font-size: 2.5rem;
+    font-weight: 600;
     line-height: 1.5;
 }
 
@@ -53,8 +53,8 @@ p {
 }
 
 .nav-link {
+    font-family: 'Montserrat-Light', sans-serif;
     font-size: 1.2rem;
-    font-family: 'Monserrat-Light';
 }
 
 a.nav-link {
@@ -91,6 +91,7 @@ a.nav-link {
 
 .testimonial-text {
     font-size: 2.5rem;
+    font-weight: bold;
     line-height: 1.5; 
 }
 
